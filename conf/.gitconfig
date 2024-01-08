@@ -1,0 +1,7 @@
+[user]
+        name = jkober
+        email = jkober@santafe.gov.ar
+[http]
+        sslVerify = false
+[credential]
+        helper = store

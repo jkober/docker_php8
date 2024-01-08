@@ -1,0 +1,1 @@
+docker compose run --workdir /www/rcadmin/db_struc mysql_php8_p /bin/bash 

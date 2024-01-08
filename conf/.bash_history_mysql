@@ -1,0 +1,79 @@
+mysql --host=mysql_php8 --user=root --password=root
+eixt
+exit
+cd /cmp
+ls
+mysql --host=mysql_php8 --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8 --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8 --user=root --password=root <rcivil_digital.sql 
+exit
+mysql --host=mysql_php8 --user=root --password=root <rcivil_seguridad.sql 
+cd cmb 
+cd cmp/
+mysql --host=mysql_php8 --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8 --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8 --user=root --password=root <rcivil_digital.sql 
+exit
+ls
+mysql --host=mysql_php8 --user=root --password=root
+mysql --host=mysql_php8_p --user=root --password=root
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil
+ls
+cd cmp/
+ls
+cd ..
+ls
+exit
+ls
+cd cmp/
+ls
+cd cmp/
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+exit
+pwd
+exit
+ls
+exit
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+cd www/
+ls
+exit
+ls
+ls
+exit
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+exit
+ls
+cd ..
+ls
+exit
+ls
+exit
+ls
+exit
+ls
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql
+exit
+ls
+mysql --host=mysql_php8_p --user=root --password=root <add_store.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_store.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_store.sql 
+exit

@@ -1,0 +1,69 @@
+#set RC_WWW=./www
+#set RC_ACTAS=./actas
+#set RC_MYSQL=./mysql
+version: "3"
+services:
+  php_81_p:
+    container_name: php_81_p
+    build:
+      context: .
+      dockerfile: Dockerfile_81
+    volumes:
+      - ./conf/ssh_config:/etc/ssh/ssh_config
+      #--------------------------------------------------------------------------------------------
+      - ./conf/.bash_history:/home/desa/.bash_history
+      - ./conf/.bashrc:/home/desa/.bashrc
+      - ./conf/.gitconfig:/home/desa/.gitconfig
+      #--------------------------------------------------------------------------------------------
+      - ./conf/vhosts_php8:/etc/apache2/sites-enabled
+      #--------------------------------------------------------------------------------------------
+      - ./conf/docker-php-ext-xdebug3php8.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./conf/docker-php-ext-xdebug3php8.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      #--------------------------------------------------------------------------------------------
+      - ./conf/php.ini:/usr/local/etc/php/php.ini
+      #--------------------------------------------------------------------------------------------
+      - ./conf/ssl:/etc/apache2/ssl/
+      - ./conf/start.sh:/start.sh
+      #--------------------------------------------------------------------------------------------
+      - ${RC_WWW-www_x}:/var/www/html:cached
+      - ${RC_ACTAS-actas_x}:/var/www/html/rcadmin/actas:cached
+      #--------------------------------------------------------------------------------------------
+    environment:
+      mem_limit: igb
+      TZ: America/Buenos_Aires
+      DEBIAN_FRONTEND: "noninteractive"    
+#      http_proxy: "http://10.7.1.219:3128"
+#      https_proxy: "http://10.7.1.219:3128"
+#      no_proxy: "localhost,127.0.0.1,.santafe.gov.ar,.santafe.gob.ar"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+      - "renaperdatosc.idear.gov.ar:200.41.231.115"
+      - "dsso.santafe.gob.ar:10.20.8.79"
+      - "srvtgraylog1e.santafe.gov.ar:10.30.8.231"
+    ports:
+      - "5001:443"
+    links:
+      - mysql_php8_p
+    dns: 
+#      - 10.1.4.10
+      - 8.8.8.8
+  mysql_php8_p:
+    image: mysql:8.0.22
+    container_name: 'mysql_php8_p'
+#    restart: 'always'
+    command: --default-authentication-plugin=mysql_native_password --secure-file-priv=/www/rcadmin/db_struc
+    ports:
+      - "5000:3306"
+    volumes: 
+      - ./conf/.bash_history_mysql:/root/.bash_history
+      - ${RC_MYSQL-mysql_x}:/var/lib/mysql
+      - ${RC_WWW-www_x}:/www/:rw
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+volumes:
+    mysql_x:
+        external: false    
+    www_x:
+        external: false    
+    actas_x:
+        external: false                
