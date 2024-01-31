@@ -1,4 +1,4 @@
-FROM php:8.1.0-apache
+FROM php:8.1.23-apache
 
 RUN adduser  desa
 RUN mkdir /home/desa/.ssh

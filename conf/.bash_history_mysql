@@ -77,3 +77,71 @@ mysql --host=mysql_php8_p --user=root --password=root <add_store.sql
 mysql --host=mysql_php8_p --user=root --password=root <add_store.sql 
 mysql --host=mysql_php8_p --user=root --password=root <add_store.sql 
 exit
+ls
+ls
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root < add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root < add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root < add_store.sql 
+mysql --host=mysql_php8_p --user=root --password=root < crear_claves_secuenciales.sql 
+mysql --host=mysql_php8_p --user=root --password=root < db_reset_autoincremental.sql 
+exit
+LS
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+exit
+ls
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <db_reset_autoincremental.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+exit
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+exit
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql
+exit
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <crear_claves_secuenciales.sql 
+exit
+ls
+more crear_claves_secuenciales.sql 
+exit
+mysql --host=mysql_php8_p --user=root --password=root <u407263410_vtiger.sql 
+down
+exit
+clear
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <db_reset_autoincremental.sql 
+exit
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_seguridad.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_oficinas.sql 
+mysql --host=mysql_php8_p --user=root --password=root <rcivil_digital.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <add_data.sql 
+mysql --host=mysql_php8_p --user=root --password=root <crear_claves_secuenciales.sql 
+exit
